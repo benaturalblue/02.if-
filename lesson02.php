@@ -8,3 +8,19 @@
 // ○○点は「○」です。
 
 $score = 100; //いくつかのケースで動作確認を行ってください。
+// $score = 65;
+// $score = 50;
+// $score = 30;
+
+if ($score >= 80) {
+    $grade = "優";
+} elseif ($score >= 60) {
+    $grade = "良";
+} elseif ($score >= 40) {
+    $grade = "可";
+} else {
+    $grade = "不可";
+}
+
+echo $score . "点は「" . $grade . "」です。";
+?>
